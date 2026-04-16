@@ -1,0 +1,54 @@
+Daksh Trivedi
+ +91-9898294275
+# dakshtrivedi646@gmail.com
+ï linkedin.com/in/daksh-trivedi
+§ github.com/trivedi2006
+Summary
+Second-year Computer Science student with a foundation in SQL, Python, Excel, and Tableau. Experienced in data
+cleaning, analysis, and visualization through academic and personal projects. Passionate about extracting insights
+from data and building practical solutions. Eager to apply analytical skills in real-world projects and collaborative
+environments.
+Education
+B.E. in Computer Science Engineering
+Expected: 2028
+LJ Institute of Technology, Ahmedabad
+Higher Secondary Education (Science)
+Adani Public School, Mundra - Kutch
+Percentage: 89.2%
+Skills
+Programming & Querying: Python (Pandas, NumPy), SQL
+Web Technologies: HTML, CSS, JavaScript
+Frameworks & Libraries: Flask, OpenCV
+Data Visualization: Tableau, Matplotlib, Seaborn, Plotly
+Data Analysis: Data Cleaning, Exploratory Data Analysis (EDA), Feature Engineering, Statistical Analysis
+Experience
+Data Analytics Virtual Experience
+2026
+Deloitte (Forage)
+– Analyzed business datasets to identify trends and generate actionable insights using Excel and data visualization
+techniques.
+– Built interactive dashboards to track KPIs and performance metrics, improving clarity for stakeholder decision-making.
+Data Analytics Virtual Experience
+2026
+Tata Group (Forage)
+– Performed exploratory data analysis on business datasets to uncover patterns and support strategic insights.
+– Developed visual reports using Tableau to monitor trends and key performance indicators.
+– Demonstrated problem-solving by deriving insights aligned with real-world business scenarios.
+Projects
+Spam Detection System | Python, NLP | GitHub
+2025
+– Analyzed and classified text data to detect spam vs legitimate messages using natural language processing
+techniques.
+– Performed data cleaning, tokenization, and feature extraction (TF-IDF) to improve model performance.
+– Identified key linguistic patterns in spam messages, enabling more accurate filtering and real-time detection.
+Document Retrieval System using RAG | Python, FastAPI, LLM | GitHub
+2026
+– Built a context-aware document retrieval system to extract relevant information from large datasets using RAG
+architecture.
+– Integrated vector databases and LLMs to enable semantic search and accurate response generation.
+– Reduced manual search effort and improved information retrieval efficiency for users.
+– Developed backend APIs using FastAPI and designed a clean UI for seamless user interaction.
+Face Recognition System | Python, OpenCV | GitHub
+2026
+– Developed a real-time face recognition system for automated identity verification using computer vision.
+– Implemented image preprocessing and feature extraction techniques to improve recognition accuracy.

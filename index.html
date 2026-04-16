@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daksh Trivedi</title>
+    <meta name="description" content="Portfolio of Daksh Trivedi - Computer Science Engineering at PIET.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Glassmorphism Nav -->
+    <nav class="nav-glass">
+        <a href="#" class="logo">DAKSH.</a>
+        <div class="nav-links">
+            <a href="#about">ABOUT</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#experience">EXPERIENCE</a>
+            <a href="#contact" class="text-primary">CONTACT</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero ghost-border">
+        <img src="img1.png" alt="Daksh" class="hero-portrait">
+        <div class="hero-content">
+            <h1 class="display-lg hero-headline">
+                <span class="overlap-txt">DAKSH</span>
+                <span class="overlap-txt text-primary">TRIVEDI</span>
+            </h1>
+            <p class="body-md" style="margin-top:24px; max-width:400px;">
+                Computer Science undergraduate focused on building efficient, scalable web applications with strong fundamentals in backend systems and data handling.
+            </p>
+            <div style="margin-top:40px; display:flex; gap:16px;">
+                <a href="#projects" class="btn btn-primary label-md">VIEW PROJECTS</a>
+                <a href="#contact" class="btn btn-secondary label-md">GITHUB</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Skills -->
+    <section id="about" class="about section-pad">
+        <div class="grid-2">
+            <div data-anim="fade-left">
+                <h2 class="display-lg glow-on-reveal" style="font-size:3rem; margin-bottom:24px;">SKILLS<br></h2>
+                <div class="line-draw"></div>
+                <p class="body-md" data-anim="fade-up" data-delay="200">
+                    I work at the intersection of data and problem-solving, with a strong foundation in SQL, Python, and Tableau. From cleaning messy datasets to building clear, insightful visualizations, I focus on turning data into decisions.
+
+Beyond analytics, I have explored Machine Learning to develop predictive models and used OpenCV for real-world computer vision tasks.
+
+I’m driven by the challenge of extracting meaningful insights and building practical solutions that simplify complex problems.
+                </p>
+            </div>
+            <div data-anim="fade-right" data-delay="100">
+                <div class="label-md text-primary" style="margin-bottom:24px;">CORE EXPERTISE</div>
+                <div class="chip-container">
+
+                    <div class="skill-badge">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="26" height="26">
+                        <div><span class="sname">Python</span><span class="ssub">Pandas, NumPy</span></div>
+                    </div>
+
+                    <div class="skill-badge">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="26" height="26">
+                        <div><span class="sname">SQL</span><span class="ssub">Databases</span></div>
+                    </div>
+
+                    <div class="skill-badge">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="26" height="26">
+                        <div><span class="sname">HTML/CSS/JS</span><span class="ssub">Web Frontend</span></div>
+                    </div>
+
+                    <div class="skill-badge">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="26" height="26" style="filter:invert(1)">
+                        <div><span class="sname">Flask & FastAPI</span><span class="ssub">Backend APIs</span></div>
+                    </div>
+
+                    <div class="skill-badge">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="26" height="26">
+                        <div><span class="sname">OpenCV</span><span class="ssub">Computer Vision</span></div>
+                    </div>
+
+                    <div class="skill-badge">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/plotly/plotly-original.svg" width="26" height="26">
+                        <div><span class="sname">Tableau & Plotly</span><span class="ssub">Data Viz</span></div>
+                    </div>
+
+                    <div class="skill-badge">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="26" height="26">
+                        <div><span class="sname">Machine Learning</span><span class="ssub">Scikit-learn</span></div>
+                    </div>
+
+                    <div class="skill-badge">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/openai/openai-original.svg" width="26" height="26" style="filter:invert(1)">
+                        <div><span class="sname">LLMs & RAG</span><span class="ssub">LangChain · OpenAI</span></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="works section-pad">
+        <div class="works-header" data-anim="fade-up">
+            <h2 class="display-lg glow-on-reveal" style="font-size:4rem;">PROJECTS<br></h2>
+            <div class="line-draw" style="max-width:200px; margin:16px auto 0;"></div>
+        </div>
+        <div class="projects-container">
+
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="proj-img">
+                    <img src="spam_detection_image.png" alt="">
+                    <!-- Placeholder color for image block since we don't have project images -->
+                    <div style="width:100%; height:100%; background:linear-gradient(135deg, #2a2a2a, #1a1a1a);"></div>
+                </div>
+                <div class="proj-content">
+                    <div class="label-md proj-label">NLP & ML MODELING</div>
+                    <h3 class="display-lg" style="font-size:2.5rem; margin-bottom:16px;">SPAM DETECTION SYSTEM</h3>
+                    <p class="body-md" style="margin-bottom:24px;">
+                        Analyzed and classified text data to detect spam vs. legitimate messages using natural language
+                        processing techniques. Performed extensive data cleaning, tokenization, and TF-IDF feature
+                        extraction.
+                    </p>
+                    <div class="chip-container" style="margin-top:0;">
+                        <div class="chip">Python</div>
+                        <div class="chip">NLP</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="proj-img">
+                    <img src="Document_retrival.jpg" alt="">
+                    <div style="width:100%; height:100%; background:linear-gradient(135deg, #1f1f1f, #0d0d0d);"></div>
+                </div>
+                <div class="proj-content">
+                    <div class="label-md proj-label">AI ENGINEERING</div>
+                    <h3 class="display-lg" style="font-size:2.5rem; margin-bottom:16px;">DOCUMENT RETRIEVAL (RAG)</h3>
+                    <p class="body-md" style="margin-bottom:24px;">
+                        Built a context-aware document retrieval system to extract relevant info from massive datasets
+                        using highly optimized RAG architecture. Integrated vector databases and LLMs via FastAPI
+                        backend.
+                    </p>
+                    <div class="chip-container" style="margin-top:0;">
+                        <div class="chip">Python</div>
+                        <div class="chip">FastAPI</div>
+                        <div class="chip">LLM</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="proj-img">
+                    <img src="face_recognition.webp" alt="">
+                    <div style="width:100%; height:100%; background:linear-gradient(135deg, #222, #111);"></div>
+                </div>
+                <div class="proj-content">
+                    <div class="label-md proj-label">COMPUTER VISION</div>
+                    <h3 class="display-lg" style="font-size:2.5rem; margin-bottom:16px;">FACE RECOGNITION</h3>
+                    <p class="body-md" style="margin-bottom:24px;">
+                        Developed a real-time face recognition system for automated identity verification. Implemented
+                        continuous image preprocessing and feature extraction techniques enhancing overall accuracy.
+                    </p>
+                    <div class="chip-container" style="margin-top:0;">
+                        <div class="chip">Python</div>
+                        <div class="chip">OpenCV</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card">
+                <div class="proj-img">
+                    <img src="movie recommendation.jpg" alt="">
+                    <div style="width:100%; height:100%; background:linear-gradient(135deg, #1f1f1f, #0a0a0a);"></div>
+                </div>
+                <div class="proj-content">
+                    <div class="label-md proj-label">MACHINE LEARNING</div>
+                    <h3 class="display-lg" style="font-size:2.5rem; margin-bottom:16px;">STREAMSENSE</h3>
+                    <p class="body-md" style="margin-bottom:24px;">
+                        Engineered a content-based recommendation engine leveraging NLP techniques and cosine similarity, deployed with a scalable backend architecture.
+                    </p>
+                    <div class="chip-container" style="margin-top:0;">
+                        <div class="chip">Python</div>
+                        <div class="chip">NLP</div>
+                        <div class="chip">Backend</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="experience section-pad">
+        <h2 class="display-lg glow-on-reveal" data-anim="fade-up" style="font-size:3.5rem; margin-bottom:32px; text-align:center;">VIRTUAL<br>EXPERIENCE</h2>
+        <div class="line-draw" style="max-width:160px; margin: 0 auto 64px;"></div>
+
+        <div class="exp-row">
+            <div>
+                <h3 class="display-lg" style="font-size:1.5rem; margin-bottom:8px;">DATA ANALYTICS</h3>
+                <div class="body-md">Deloitte (Forage)</div>
+            </div>
+            <div style="max-width:500px;">
+                <p class="body-md">
+                    Analyzed business datasets to identify trends and generate actionable insights using Excel and data
+                    visualization techniques. Built interactive dashboards to track KPIs.
+                </p>
+            </div>
+            <div class="label-md text-primary">2026</div>
+        </div>
+
+        <div class="exp-row">
+            <div>
+                <h3 class="display-lg" style="font-size:1.5rem; margin-bottom:8px;">DATA ANALYTICS</h3>
+                <div class="body-md">Tata Group (Forage)</div>
+            </div>
+            <div style="max-width:500px;">
+                <p class="body-md">
+                    Performed exploratory data analysis to uncover patterns and support strategic insights. Developed
+                    visual reports using Tableau to monitor trends.
+                </p>
+            </div>
+            <div class="label-md text-primary">2026</div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <h2 class="display-lg text-primary glow-on-reveal" data-anim="zoom-in" style="font-size:5rem; margin-bottom:16px;">LET'S CONNECT.</h2>
+        <p class="body-md" data-anim="fade-up" data-delay="200">I'm open to new opportunities and collaborations. Reach out and let's create something
+            amazing together.</p>
+
+        <div class="contact-cards">
+
+            <a href="mailto:dakshtrivedi646@gmail.com" class="contact-card">
+                <div class="contact-card-icon">✉</div>
+                <div class="contact-card-label label-md">EMAIL</div>
+                <div class="contact-card-value">dakshtrivedi646@gmail.com</div>
+            </a>
+
+            <a href="https://linkedin.com/in/daksh-trivedi" target="_blank" class="contact-card">
+                <div class="contact-card-icon">in</div>
+                <div class="contact-card-label label-md">LINKEDIN</div>
+                <div class="contact-card-value">linkedin.com/in/daksh-trivedi</div>
+            </a>
+
+            <a href="https://github.com/trivedi2006" target="_blank" class="contact-card">
+                <div class="contact-card-icon">⌥</div>
+                <div class="contact-card-label label-md">GITHUB</div>
+                <div class="contact-card-value">github.com/trivedi2006</div>
+            </a>
+
+            <a href="tel:+919898294275" class="contact-card">
+                <div class="contact-card-icon">☏</div>
+                <div class="contact-card-label label-md">PHONE</div>
+                <div class="contact-card-value">+91 98982 94275</div>
+            </a>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
